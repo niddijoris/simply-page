@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #222;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 2em 0;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.bn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #444444;
+    margin: 1em 0;
+}
+
+.bn:hover {
+    background: #eaeaea;
+    color: #333;
+}
+
+
+
+#dov {
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+#dov .ge {
+    position: absolute;
+    background: #333
+    url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#dak.box {
+    padding: 2em;
+    color: #fff;
+}
+
+#dak .box:first-child {
+    background: #2690d4;
+}
+
+#bas {
+    padding: 2em 1em 1em;
+}
+
+
+#ter {
+    padding: 2em;
+    background: #111111;
+    color: #fff;
+    text-align: center;
+}
+#dov h1 {
+    padding-top: 105px;
+    padding-bottom: 0;
+}
+
+#dov .rap, #wa .rap {
+    padding: 0 1.3em;
+}
+
+
+
+#wa {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 1em;
+}
+
+body{
+    color: #fff;
+    font-size: 1.3em;
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+
+
+
+#bas ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bas li {
+    margin-bottom: 2em;
+    background: #fff;
+    color: #333;
+}
+
+.car {
+    padding: 1.5em;
+}
+
+
+
+#isa {
+    background: #fff;
+    color: #333;
+    padding: 3em;
+}
+
+
+
+
+
+#ter a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 300px) {
+
+    #wa .text {
+        columns: 2;
+        column-gap: 2em;
+    }
+
+    #wa .text p {
+        padding-top: 0;
+    }
+
+
+
+    #bas ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #bas li {
+        width: 31%;
+    }
+    .rap, #bas ul {
+        grid-column: 2/4;
+    }
+
+    .box, #ter div {
+        grid-column: span 2;
+    }
+
+    .id {
+        display: grid;
+        grid-template-columns: 2fr repeat(2, minmax(auto, 28em)) 1fr;
+    }
+
+
+}
